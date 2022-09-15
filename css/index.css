@@ -1,0 +1,49 @@
+.buttons, .times, .log {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 100px auto;
+}
+
+.log-title, .log-data {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.log-title {
+    font-weight: bolder;
+}
+
+.buttons button {
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.times span {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
+
+ol {
+    /*list-style: none;*/
+    padding: 0 42%;
+}
+
+li {
+    border: #0f0f0f 1px solid;
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: #9d9d9d;
+    padding-left: 20px;
+}
